@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #FF7904;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+  background-color: rgb(250, 255, 238);
+}
+.container .content {
+  width: 70%;
+}
+.container .blocks {
+  width: 0px;
+  height: 0px;
+  background-color: #FFE715;
+  margin: 5px;
+}
+.container .toBottom {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 250px;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #A900F2;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff7904;
+}
+.container {
+  display: flex;
+  height: 500px;
+  background-color: rgb(250, 255, 238);
+  .content {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+  .blocks {
+    width: 0px;
+    height: 0px;
+    background-color: #ffe715;
+    margin: 5px;
+  }
+  .toBottom {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 250px;
+  }
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #a900f2;
+}
